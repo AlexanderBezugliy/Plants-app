@@ -6,8 +6,6 @@ import { dataBigPlants } from '../data/dataBigPlants'
 import { motion } from 'framer-motion'
 
 const AboutUs = () => {
-    
-
 
     return (
         <section id='about' className='relative overflow-hidden'>
@@ -40,7 +38,7 @@ const AboutUs = () => {
                             className={`flex flex-col items-center ${layoutClass} gap-5`}
                             initial="hidden"
                             whileInView="visible" // Анімуємо, коли елемент з'являється у viewport
-                            viewport={{ once: false, amount: 0.1 }} // Анімуємо один раз, коли 30% елемента видно
+                            viewport={{ once: true, amount: 0.1 }} // Анімуємо один раз, коли 30% елемента видно
                             transition={{ duration: 0.8 }} // Тривалість анімації 0.8 секунди
                             variants={currentVariants}
                         >

@@ -19,7 +19,7 @@ const Services = () => {
                 }}
                 initial="hidden"            
                 whileInView="visible"
-                viewport={{ once: false, amount: 0.5 }}
+                viewport={{ once: true, amount: 0.2 }}
                 
             >
                 {/* Carts */}
